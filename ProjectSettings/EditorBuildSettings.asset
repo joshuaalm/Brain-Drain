@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: d5da300dfba7b8e41a0dd3127a091393
   - enabled: 1
     path: Assets/Scenes/SummerScene.unity
     guid: 2f4515a786e2b2141a86844ab3ee6808
   - enabled: 0
     path: Assets/HTC.UnityPlugin/ViveInputUtility/Examples/6.ControllerManagerSample/ControllerManagerSample.unity
     guid: 47f6e15cfe07a644095ae09e4fd298a4
+  - enabled: 1
+    path: Assets/Scenes/BD_Winter_Scene.unity
+    guid: 3b8ecbc9ce1063a40a52895dd65591d6
+  - enabled: 1
+    path: Assets/Scenes/AutumnScene-Rebecca.unity
+    guid: 1800c535f921ee3429d82479e358cfed
   m_configObjects: {}

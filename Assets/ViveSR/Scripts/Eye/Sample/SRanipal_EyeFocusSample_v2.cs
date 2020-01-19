@@ -12,6 +12,7 @@ namespace ViveSR.anipal.Eye
         private readonly GazeIndex[] GazePriority = new GazeIndex[] { GazeIndex.COMBINE, GazeIndex.LEFT, GazeIndex.RIGHT };
         private static EyeData_v2 eyeData = new EyeData_v2();
         private bool eye_callback_registered = false;
+        BallEyeTracking ball;
         private void Start()
         {
             if (!SRanipal_Eye_Framework.Instance.EnableEye)
@@ -49,8 +50,8 @@ namespace ViveSR.anipal.Eye
 
                 if (eye_focus)
                 {
-                    DartBoard dartBoard = FocusInfo.transform.GetComponent<DartBoard>();
-                    if (dartBoard != null) dartBoard.Focus(FocusInfo.point);
+                    ball = FocusInfo.transform.GetComponent<BallEyeTracking>();
+                    if (ball != null) ball.Focus(FocusInfo.point);
                     break;
                 }
             }
