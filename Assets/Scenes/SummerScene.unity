@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -361,7 +361,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 8.87e-43, y: 0.000000072259695, z: 4.5904e-41, w: 0}
+  m_BoundingSphereOverride: {x: 8.87e-43, y: 3.547233e-39, z: 8.87e-43, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -731,7 +731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498762, guid: cbfd31aaac017204885fcc03f0579a1a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.3
+      value: 0.61
       objectReference: {fileID: 0}
     - target: {fileID: 498762, guid: cbfd31aaac017204885fcc03f0579a1a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -865,7 +865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47.6, y: -8}
+  m_AnchoredPosition: {x: 47.6, y: -10.6}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &938959654
@@ -915,14 +915,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 1.5
-  m_fontSizeBase: 1.5
+  m_fontSize: 0.8
+  m_fontSizeBase: 0.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 4
-  m_textAlignment: 257
+  m_textAlignment: 258
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -932,7 +932,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 2
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -953,7 +953,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 19.137497, w: 4.6869154}
+  m_margin: {x: 0, y: 0, z: 18.806772, w: 4.6869154}
   m_textInfo:
     textComponent: {fileID: 938959654}
     characterCount: 17
@@ -961,7 +961,7 @@ MonoBehaviour:
     spaceCount: 2
     wordCount: 3
     linkCount: 0
-    lineCount: 3
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1172,7 +1172,7 @@ PrefabInstance:
     - target: {fileID: 224122377484486154, guid: 733025e3455554b2aa178ddd1bf437c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7
+      value: 10.4
       objectReference: {fileID: 0}
     - target: {fileID: 224122377484486154, guid: 733025e3455554b2aa178ddd1bf437c6,
         type: 3}
@@ -1222,7 +1222,7 @@ PrefabInstance:
     - target: {fileID: 224122377484486154, guid: 733025e3455554b2aa178ddd1bf437c6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.001
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 224122377484486154, guid: 733025e3455554b2aa178ddd1bf437c6,
         type: 3}
@@ -1466,7 +1466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47.6, y: -8}
+  m_AnchoredPosition: {x: 47.6, y: -10.6}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1505781147
@@ -1516,14 +1516,14 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 1.5
-  m_fontSizeBase: 1.5
+  m_fontSize: 0.8
+  m_fontSizeBase: 0.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 4
-  m_textAlignment: 257
+  m_textAlignment: 258
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -1533,7 +1533,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 9
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1562,7 +1562,7 @@ MonoBehaviour:
     spaceCount: 2
     wordCount: 3
     linkCount: 0
-    lineCount: 2
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
