@@ -4,8 +4,10 @@ using UnityEngine;
 namespace ViveSR.anipal.Eye
 {
     [RequireComponent(typeof(Renderer), typeof(Collider))]
-    public class BallEyeTracking : MonoBehaviour
-    {
+    public class BallEyeTracking : MonoBehaviour {
+
+        public GameObject Kid;
+    
         private Renderer Renderer;
         public uint BendCount = 3, PieCount = 10, FrameWidth = 1;
 
@@ -13,13 +15,16 @@ namespace ViveSR.anipal.Eye
         {
             Renderer = GetComponent<Renderer>();
             Focus(Vector3.zero);
+            Kid.SetActive(false);
         }
 
         public void Focus(Vector3 focusPoint)
         {
            
             Debug.Log("Looking at the Sphere");
-        }
+
+            Kid.SetActive(true);
+    }
 
         public float SignedAngle(Vector3 v1, Vector3 v2, Vector3 v_forward)
         {
